@@ -1,8 +1,8 @@
-import { IConfig } from './src/types'
+import { IConfig } from './src/types'  
 
 const c: IConfig = {
   // [必填], 请填写您的仓库地址
-  gitRepoUrl: 'https://github.com/wfyihai/nav-1',  
+  gitRepoUrl: 'https://github.com/wfyihai/nav-1',    
 
   // 部署分支
   branch: 'main',
@@ -14,7 +14,7 @@ const c: IConfig = {
   showGithub: true,
 
   // 您的网站地址，有利于SEO
-  homeUrl: 'https://github.com/wfyihai/nav-1',  
+  homeUrl: 'https://github.com/wfyihai/nav-1',    
 
   // 网站标题
   title: '发现导航 - 精选实用导航网站',
@@ -30,7 +30,7 @@ const c: IConfig = {
 
   // 网站底部内容, 版权信息、备案号, 可以是 HTML
   footerContent: `
-    <div style="font-weight: bold;">共收录\${total}个网站</div>
+    <div style="font-weight: bold;">共收录\${total}个网站</div>  
     <div>Copyright © 2018-2021 nav3.cn, All Rights Reserved</div>
   `,
 
